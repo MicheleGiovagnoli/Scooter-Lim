@@ -1,0 +1,97 @@
+/* All 
+*/
+*{ 
+    box-sizing: content-box;
+}
+
+/* Background 
+*/
+body{
+    background-image:url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Container 
+*/
+body > div{   
+    background-color: rgba(0, 0, 0,0.5);
+    margin: auto;
+    height: 900px;
+    width: 1200px;
+    border-radius: 3%;
+    margin-top: 40px;
+}
+
+/* Logo & Title 
+*/
+div.logo-title{ 
+    text-align: center;
+    font-size: 20px;
+    color: rgb(2, 255, 2);
+    margin: auto; 
+}
+div.logo-title p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+div.logo-title img{
+    width: 244px;
+    height: 110px;
+    margin-top: 80px;
+}
+
+/* Button Bar 
+*/
+div.button-bar{
+    background-color: rgb(1, 255, 1);
+    width: 80%;
+    height: 4%;
+    margin: auto;
+    text-align: center;  
+}
+div.button-bar input{
+    margin: 7px auto;
+}
+
+/* Scooter 
+*/
+.scooter{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 120px;
+    font-size: 20px;
+}
+.scooter p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.scooter h1{
+    margin-bottom: 0%;
+}
+#StateCharged1{
+    display: inline-block;
+    background-color:orange ;
+    color: orange;
+    width: 40%;
+    height: 35px;
+    border-radius: 8px;
+}
+#StateCharged2{
+    display: inline-block;
+    background-color: green;
+    color: green;
+    width: 60%;
+    height: 35px;
+    border-radius: 8px;
+}
+#StateCharged3{
+    display: inline-block;
+    background-color: red;
+    color: red;
+    width: 20%;
+    height: 35px;
+    border-radius: 8px;
+}
